@@ -9,7 +9,7 @@ function App() {
 			<div style={{bottom: '0', fontFamily: 'lato', width: '100%', height: '100vh', display: 'flex', zIndex: 40, flexDirection: 'column', justifyContent: 'center'}}>
 				<div style={{width: '100%', height: '10vh', display: 'flex', justifyContent: 'space-around'}}>
 					<div className='button'>
-						<img src={git} alt="Girl in a jacket" width="25%" height="65%" style={{paddingTop: '7%'}}/>
+						<img src='/images/25231.png' alt="Girl in a jacket" width="25%" height="65%" style={{paddingTop: '7%'}}/>
 						<span style={{paddingTop: '12%'}}>
 							Repository
 						</span>
