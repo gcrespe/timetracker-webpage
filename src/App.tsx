@@ -7,17 +7,21 @@ function App() {
 	return (
 		<div>
 			<div style={{bottom: '0', fontFamily: 'lato', width: '100%', height: '100vh', display: 'flex', zIndex: 40, flexDirection: 'column', justifyContent: 'center'}}>
-				<div style={{width: '100%', height: '10vh', display: 'flex', justifyContent: 'space-around'}}>
+				<div style={{width: '100%', height: '10vh', display: 'flex', justifyContent: 'space-around', flexDirection: 'row'}}>
 					<div className='button'>
-						<img src='https://i.imgur.com/DGRV0oT.png' alt="Girl in a jacket" width="25%" height="65%" style={{paddingTop: '7%'}}/>
-						<span style={{paddingTop: '12%'}}>
-							Repository
-						</span>
+						<a href="https://github.com/gcrespe/timetracker-desktop" style={{justifyContent: 'space-evenly', flexDirection: 'row', display: 'flex', height: '100%'}}>
+							<img src='https://i.imgur.com/DGRV0oT.png' alt="Girl in a jacket" width="32%" height="65%" style={{paddingTop: '7%'}}/>
+							<div style={{paddingLeft: '10%', paddingTop: '15%'}}>
+								Repository
+							</div>
+						</a>
 					</div>	
 					<div className='button'>
-						<span style={{paddingTop: '12%'}}>
-							Download
-						</span>
+						<a href={"/timetrackerSetup.exe"} style={{justifyContent: 'space-evenly', flexDirection: 'row', display: 'flex', height: '100%'}} download>
+							<span style={{paddingTop: '25%'}}>
+								Download
+							</span>
+						</a>
 					</div>	
 				</div>
 				<div style={{width: '100%', height: '40vh'}}>
