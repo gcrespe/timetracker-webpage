@@ -17,7 +17,7 @@ function App() {
 						</a>
 					</div>	
 					<div className='button'>
-						<a href={"/timetrackerSetup.exe"} style={{justifyContent: 'space-evenly', flexDirection: 'row', display: 'flex', height: '100%'}} download>
+						<a href="https://mega.nz/file/ItFxjQTL#Z_0bxPcrBFaXc4fyw2apCO_sX4KKnbNA0scZDnYjU7c" style={{justifyContent: 'space-evenly', flexDirection: 'row', display: 'flex', height: '100%'}}>
 							<span style={{paddingTop: '25%'}}>
 								Download
 							</span>
